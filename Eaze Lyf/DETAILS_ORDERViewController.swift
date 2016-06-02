@@ -220,7 +220,7 @@ class DETAILS_ORDERViewController: UIViewController , UITableViewDelegate, UITab
             
         }else{
            
-        let myUrl = NSURL(string: "http://192.168.1.54:8080/RESTfulExample/rest/category/placeOrder")
+        let myUrl = NSURL(string: "http://appsquad.cloudapp.net:8080/RESTfulExample/rest/category/placeOrder")
         let request = NSMutableURLRequest(URL: myUrl!)
         
         request.HTTPMethod = "POST"
