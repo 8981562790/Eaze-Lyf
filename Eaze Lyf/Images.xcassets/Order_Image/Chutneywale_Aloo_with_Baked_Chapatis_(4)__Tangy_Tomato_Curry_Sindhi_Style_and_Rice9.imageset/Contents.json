@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "filename" : "Chutneywale_Aloo_with_Baked_Chapatis_(4)__Tangy_Tomato_Curry_Sindhi_Style_and_Rice9.jpg"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "filename" : "Chutneywale_Aloo_with_Baked_Chapatis_(4)__Tangy_Tomato_Curry_Sindhi_Style_and_Rice9-1.jpg"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "filename" : "Chutneywale_Aloo_with_Baked_Chapatis_(4)__Tangy_Tomato_Curry_Sindhi_Style_and_Rice9-2.jpg"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

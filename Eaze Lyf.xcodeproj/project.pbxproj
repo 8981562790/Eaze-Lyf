@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E50AB4E41CEED0E10013DBED /* CustomeCellForDetailsOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50AB4E31CEED0E10013DBED /* CustomeCellForDetailsOrder.swift */; };
+		E558512E1CD23A5200CBAF83 /* OrderTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E558512D1CD23A5200CBAF83 /* OrderTableController.swift */; };
+		E57828EF1CED990800D73605 /* OdetailsCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57828EE1CED990800D73605 /* OdetailsCartViewController.swift */; };
+		E5E5FC461CE6F9B10071C662 /* CategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E5FC451CE6F9B10071C662 /* CategoryDetails.swift */; };
+		E5E5FC471CE6F9B10071C662 /* CategoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E5FC451CE6F9B10071C662 /* CategoryDetails.swift */; };
+		E5E7DF6C1CF8624000E6C356 /* PLACEORDERCONTROLLER.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7DF6B1CF8624000E6C356 /* PLACEORDERCONTROLLER.swift */; };
+		E5E8696B1CD71C220074AD6E /* CustomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8696A1CD71C210074AD6E /* CustomeCell.swift */; };
+		E5E8BB4A1CE1F1A80034B6BE /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8BB491CE1F1A80034B6BE /* PasswordChangeViewController.swift */; };
+		E5EAA1641CEDFD3200044A18 /* DETAILS_ORDERViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EAA1631CEDFD3200044A18 /* DETAILS_ORDERViewController.swift */; };
+		E5EF23DD1CE5CB6700E5FCB7 /* SplashSecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EF23DC1CE5CB6700E5FCB7 /* SplashSecondScreen.swift */; };
+		E5F346E71CD07CF400209801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F346E61CD07CF400209801 /* AppDelegate.swift */; };
+		E5F346E91CD07CF400209801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F346E81CD07CF400209801 /* ViewController.swift */; };
+		E5F346EC1CD07CF400209801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F346EA1CD07CF400209801 /* Main.storyboard */; };
+		E5F346EE1CD07CF400209801 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F346ED1CD07CF400209801 /* Images.xcassets */; };
+		E5F346F11CD07CF500209801 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F346EF1CD07CF500209801 /* LaunchScreen.xib */; };
+		E5F346FD1CD07CF500209801 /* Eaze_LyfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F346FC1CD07CF500209801 /* Eaze_LyfTests.swift */; };
+		E5F347071CD0801200209801 /* SplashScreenSig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F347061CD0801200209801 /* SplashScreenSig.swift */; };
+		E5F347091CD08C2300209801 /* SecondControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F347081CD08C2300209801 /* SecondControllerLogin.swift */; };
+		E5F3470B1CD09BB600209801 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F3470A1CD09BB600209801 /* SignupController.swift */; };
+		E5F347101CD0AA9A00209801 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5F3470D1CD0AA2400209801 /* Roboto-Bold.ttf */; };
+		E5F347111CD0AA9A00209801 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5F3470E1CD0AA2400209801 /* Roboto-Light.ttf */; };
+		E5F347121CD0AA9A00209801 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5F3470F1CD0AA2400209801 /* Roboto-Regular.ttf */; };
+		E5F35B811CDB4BA2004D9214 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F35B801CDB4BA2004D9214 /* LocationController.swift */; };
+		E5FC18A01CD9FCC9000E297E /* OrderButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FC189F1CD9FCC9000E297E /* OrderButtonController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5F346F71CD07CF500209801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5F346D91CD07CF400209801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5F346E01CD07CF400209801;
+			remoteInfo = "Eaze Lyf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E50AB4E31CEED0E10013DBED /* CustomeCellForDetailsOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeCellForDetailsOrder.swift; sourceTree = "<group>"; };
+		E558512D1CD23A5200CBAF83 /* OrderTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableController.swift; sourceTree = "<group>"; };
+		E57828EE1CED990800D73605 /* OdetailsCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OdetailsCartViewController.swift; sourceTree = "<group>"; };
+		E5E5FC451CE6F9B10071C662 /* CategoryDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetails.swift; sourceTree = "<group>"; };
+		E5E7DF6B1CF8624000E6C356 /* PLACEORDERCONTROLLER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLACEORDERCONTROLLER.swift; sourceTree = "<group>"; };
+		E5E8696A1CD71C210074AD6E /* CustomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeCell.swift; sourceTree = "<group>"; };
+		E5E8BB491CE1F1A80034B6BE /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
+		E5EAA1631CEDFD3200044A18 /* DETAILS_ORDERViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DETAILS_ORDERViewController.swift; sourceTree = "<group>"; };
+		E5EF23DC1CE5CB6700E5FCB7 /* SplashSecondScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashSecondScreen.swift; sourceTree = "<group>"; };
+		E5F346E11CD07CF400209801 /* Eaze Lyf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eaze Lyf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F346E51CD07CF400209801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F346E61CD07CF400209801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5F346E81CD07CF400209801 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5F346EB1CD07CF400209801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5F346ED1CD07CF400209801 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5F346F01CD07CF500209801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E5F346F61CD07CF500209801 /* Eaze LyfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eaze LyfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F346FB1CD07CF500209801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F346FC1CD07CF500209801 /* Eaze_LyfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eaze_LyfTests.swift; sourceTree = "<group>"; };
+		E5F347061CD0801200209801 /* SplashScreenSig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenSig.swift; sourceTree = "<group>"; };
+		E5F347081CD08C2300209801 /* SecondControllerLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondControllerLogin.swift; sourceTree = "<group>"; };
+		E5F3470A1CD09BB600209801 /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		E5F3470D1CD0AA2400209801 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E5F3470E1CD0AA2400209801 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		E5F3470F1CD0AA2400209801 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E5F35B801CDB4BA2004D9214 /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		E5FC189F1CD9FCC9000E297E /* OrderButtonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButtonController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5F346DE1CD07CF400209801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F346F31CD07CF500209801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5F346D81CD07CF400209801 = {
+			isa = PBXGroup;
+			children = (
+				E5E7DF6B1CF8624000E6C356 /* PLACEORDERCONTROLLER.swift */,
+				E57828EE1CED990800D73605 /* OdetailsCartViewController.swift */,
+				E5F346E31CD07CF400209801 /* Eaze Lyf */,
+				E5F346F91CD07CF500209801 /* Eaze LyfTests */,
+				E5F346E21CD07CF400209801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5F346E21CD07CF400209801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5F346E11CD07CF400209801 /* Eaze Lyf.app */,
+				E5F346F61CD07CF500209801 /* Eaze LyfTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5F346E31CD07CF400209801 /* Eaze Lyf */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3470C1CD0A9C600209801 /* Resources */,
+				E5F346E61CD07CF400209801 /* AppDelegate.swift */,
+				E5F346E81CD07CF400209801 /* ViewController.swift */,
+				E5F346EA1CD07CF400209801 /* Main.storyboard */,
+				E50AB4E31CEED0E10013DBED /* CustomeCellForDetailsOrder.swift */,
+				E5EAA1631CEDFD3200044A18 /* DETAILS_ORDERViewController.swift */,
+				E5EF23DC1CE5CB6700E5FCB7 /* SplashSecondScreen.swift */,
+				E5E8BB491CE1F1A80034B6BE /* PasswordChangeViewController.swift */,
+				E5F35B801CDB4BA2004D9214 /* LocationController.swift */,
+				E5FC189F1CD9FCC9000E297E /* OrderButtonController.swift */,
+				E5E8696A1CD71C210074AD6E /* CustomeCell.swift */,
+				E558512D1CD23A5200CBAF83 /* OrderTableController.swift */,
+				E5F3470A1CD09BB600209801 /* SignupController.swift */,
+				E5F347081CD08C2300209801 /* SecondControllerLogin.swift */,
+				E5F347061CD0801200209801 /* SplashScreenSig.swift */,
+				E5F346ED1CD07CF400209801 /* Images.xcassets */,
+				E5F346EF1CD07CF500209801 /* LaunchScreen.xib */,
+				E5F346E41CD07CF400209801 /* Supporting Files */,
+				E5E5FC451CE6F9B10071C662 /* CategoryDetails.swift */,
+			);
+			path = "Eaze Lyf";
+			sourceTree = "<group>";
+		};
+		E5F346E41CD07CF400209801 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F346E51CD07CF400209801 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5F346F91CD07CF500209801 /* Eaze LyfTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5F346FC1CD07CF500209801 /* Eaze_LyfTests.swift */,
+				E5F346FA1CD07CF500209801 /* Supporting Files */,
+			);
+			path = "Eaze LyfTests";
+			sourceTree = "<group>";
+		};
+		E5F346FA1CD07CF500209801 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F346FB1CD07CF500209801 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5F3470C1CD0A9C600209801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3470D1CD0AA2400209801 /* Roboto-Bold.ttf */,
+				E5F3470E1CD0AA2400209801 /* Roboto-Light.ttf */,
+				E5F3470F1CD0AA2400209801 /* Roboto-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5F346E01CD07CF400209801 /* Eaze Lyf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5F347001CD07CF500209801 /* Build configuration list for PBXNativeTarget "Eaze Lyf" */;
+			buildPhases = (
+				E5F346DD1CD07CF400209801 /* Sources */,
+				E5F346DE1CD07CF400209801 /* Frameworks */,
+				E5F346DF1CD07CF400209801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eaze Lyf";
+			productName = "Eaze Lyf";
+			productReference = E5F346E11CD07CF400209801 /* Eaze Lyf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5F346F51CD07CF500209801 /* Eaze LyfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5F347031CD07CF500209801 /* Build configuration list for PBXNativeTarget "Eaze LyfTests" */;
+			buildPhases = (
+				E5F346F21CD07CF500209801 /* Sources */,
+				E5F346F31CD07CF500209801 /* Frameworks */,
+				E5F346F41CD07CF500209801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5F346F81CD07CF500209801 /* PBXTargetDependency */,
+			);
+			name = "Eaze LyfTests";
+			productName = "Eaze LyfTests";
+			productReference = E5F346F61CD07CF500209801 /* Eaze LyfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5F346D91CD07CF400209801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Appsquad Pvt. Ltd.";
+				TargetAttributes = {
+					E5F346E01CD07CF400209801 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 3FWD957V9M;
+					};
+					E5F346F51CD07CF500209801 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E5F346E01CD07CF400209801;
+					};
+				};
+			};
+			buildConfigurationList = E5F346DC1CD07CF400209801 /* Build configuration list for PBXProject "Eaze Lyf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5F346D81CD07CF400209801;
+			productRefGroup = E5F346E21CD07CF400209801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5F346E01CD07CF400209801 /* Eaze Lyf */,
+				E5F346F51CD07CF500209801 /* Eaze LyfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5F346DF1CD07CF400209801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F347101CD0AA9A00209801 /* Roboto-Bold.ttf in Resources */,
+				E5F347111CD0AA9A00209801 /* Roboto-Light.ttf in Resources */,
+				E5F347121CD0AA9A00209801 /* Roboto-Regular.ttf in Resources */,
+				E5F346EC1CD07CF400209801 /* Main.storyboard in Resources */,
+				E5F346F11CD07CF500209801 /* LaunchScreen.xib in Resources */,
+				E5F346EE1CD07CF400209801 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F346F41CD07CF500209801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5F346DD1CD07CF400209801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E5FC461CE6F9B10071C662 /* CategoryDetails.swift in Sources */,
+				E5F346E91CD07CF400209801 /* ViewController.swift in Sources */,
+				E5F347071CD0801200209801 /* SplashScreenSig.swift in Sources */,
+				E5FC18A01CD9FCC9000E297E /* OrderButtonController.swift in Sources */,
+				E57828EF1CED990800D73605 /* OdetailsCartViewController.swift in Sources */,
+				E5F346E71CD07CF400209801 /* AppDelegate.swift in Sources */,
+				E558512E1CD23A5200CBAF83 /* OrderTableController.swift in Sources */,
+				E50AB4E41CEED0E10013DBED /* CustomeCellForDetailsOrder.swift in Sources */,
+				E5F3470B1CD09BB600209801 /* SignupController.swift in Sources */,
+				E5EAA1641CEDFD3200044A18 /* DETAILS_ORDERViewController.swift in Sources */,
+				E5E7DF6C1CF8624000E6C356 /* PLACEORDERCONTROLLER.swift in Sources */,
+				E5F347091CD08C2300209801 /* SecondControllerLogin.swift in Sources */,
+				E5E8BB4A1CE1F1A80034B6BE /* PasswordChangeViewController.swift in Sources */,
+				E5F35B811CDB4BA2004D9214 /* LocationController.swift in Sources */,
+				E5EF23DD1CE5CB6700E5FCB7 /* SplashSecondScreen.swift in Sources */,
+				E5E8696B1CD71C220074AD6E /* CustomeCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F346F21CD07CF500209801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E5FC471CE6F9B10071C662 /* CategoryDetails.swift in Sources */,
+				E5F346FD1CD07CF500209801 /* Eaze_LyfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5F346F81CD07CF500209801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5F346E01CD07CF400209801 /* Eaze Lyf */;
+			targetProxy = E5F346F71CD07CF500209801 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5F346EA1CD07CF400209801 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5F346EB1CD07CF400209801 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5F346EF1CD07CF500209801 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5F346F01CD07CF500209801 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5F346FE1CD07CF500209801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5F346FF1CD07CF500209801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5F347011CD07CF500209801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Eaze Lyf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsquad.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E5F347021CD07CF500209801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Eaze Lyf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsquad.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E5F347041CD07CF500209801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Eaze LyfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsquad.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eaze Lyf.app/Eaze Lyf";
+			};
+			name = Debug;
+		};
+		E5F347051CD07CF500209801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Eaze LyfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appsquad.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eaze Lyf.app/Eaze Lyf";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5F346DC1CD07CF400209801 /* Build configuration list for PBXProject "Eaze Lyf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F346FE1CD07CF500209801 /* Debug */,
+				E5F346FF1CD07CF500209801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5F347001CD07CF500209801 /* Build configuration list for PBXNativeTarget "Eaze Lyf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F347011CD07CF500209801 /* Debug */,
+				E5F347021CD07CF500209801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5F347031CD07CF500209801 /* Build configuration list for PBXNativeTarget "Eaze LyfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F347041CD07CF500209801 /* Debug */,
+				E5F347051CD07CF500209801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5F346D91CD07CF400209801 /* Project object */;
+}
