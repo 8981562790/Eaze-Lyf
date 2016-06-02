@@ -122,7 +122,7 @@ class CustomeCell: UITableViewCell {
         if (quantity != "" && Index_path == 0){
             quantity1 = Int(quantity)! + quantity2 + quantity3 + quantity4 + quantity5 + quantity6 + quantity7 + quantity8 + quantity9 + quantity10
             checklabel.text = String(quantity1)
-            amount1 = amount4 + amount3 + amount2 + Int(categoryprice_cart)! * Int(quantity) + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
+//            amount1 = amount4 + amount3 + amount2 + Int(categoryprice_cart)! * Int(quantity) + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
             total_cart.text = String(amount1)
              TPonCart = String(amount1)
             quantityOnCart = quantity1
@@ -133,7 +133,7 @@ class CustomeCell: UITableViewCell {
             quantity2 = Int(quantity)!
             addQuantity = quantity2 + quantity1 + quantity3 + quantity4 + quantity5 + quantity6 + quantity7 + quantity8 + quantity9 + quantity10
             checklabel.text = String(addQuantity)
-            amount2 = (categoryprice_cart).Int()! * quantity2
+            amount2 = Int(categoryprice_cart)! * quantity2
             totalAmount = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
             total_cart.text = String(totalAmount)
             TPonCart = String(totalAmount)
@@ -142,10 +142,10 @@ class CustomeCell: UITableViewCell {
         print("Please Select And Enter Quantity Of Product")
         }*/
         else if (quantity != "" && Index_path == 2){
-            quantity3 = (quantity).Int()!
+            quantity3 = Int(quantity)!
             addQuantity3 = quantity4 + quantity3 + quantity2 + quantity1 + quantity5 + quantity6 + quantity7 + quantity8 + quantity9 + quantity10
             checklabel.text = String(addQuantity3)
-            amount3 = (categoryprice_cart).Int()! * quantity3
+            amount3 = Int(categoryprice_cart)! * quantity3
             totalAmount3 = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
             total_cart.text = String(totalAmount3)
             TPonCart = String(totalAmount3)
@@ -154,10 +154,10 @@ class CustomeCell: UITableViewCell {
         print("Please Select And Enter Quantity Of Product")
         }*/
         else if (quantity != "" && Index_path == 3){
-            quantity4 = (quantity).Int()!
+            quantity4 = Int(quantity)!
             addQuantity4 = quantity4 + quantity3 + quantity2 + quantity1 + quantity5 + quantity6 + quantity7 + quantity8 + quantity9 + quantity10
             checklabel.text = String(addQuantity4)
-            amount4 = (categoryprice_cart).Int()! * quantity4
+            amount4 = Int(categoryprice_cart)! * quantity4
             totalAmount4 = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
             total_cart.text = String(totalAmount4)
            TPonCart = String(totalAmount4)
@@ -167,10 +167,10 @@ class CustomeCell: UITableViewCell {
 //            print("Please Select And Enter Quantity Of Product")
 //        }
         else if (quantity != "" && Index_path == 4){
-            quantity5 = (quantity).Int()!
+            quantity5 = Int(quantity)!
             addQuantity5 = quantity5 + quantity4 + quantity3 + quantity2 + quantity1 + quantity6 + quantity7 + quantity8 + quantity9 + quantity10
             checklabel.text = String(addQuantity5)
-            amount5 = (categoryprice_cart).Int()! * quantity4
+            amount5 = Int(categoryprice_cart)! * quantity4
             totalAmount5 = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
             total_cart.text = String(totalAmount5)
             TPonCart = String(totalAmount5)
@@ -180,10 +180,10 @@ class CustomeCell: UITableViewCell {
 //            print("Please Select And Enter Quantity Of Product")
 //        }
         else if (quantity != "" && Index_path == 5){
-            quantity6 = (quantity).Int()!
+            quantity6 = Int(quantity)!
             addQuantity6 = quantity5 + quantity4 + quantity3 + quantity2 + quantity1 + quantity6 + quantity7 + quantity8 + quantity9 + quantity10
             checklabel.text = String(addQuantity6)
-            amount6 = (categoryprice_cart).Int()! * quantity6
+            amount6 = Int(categoryprice_cart)! * quantity6
             totalAmount6 = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
             total_cart.text = String(totalAmount6)
             TPonCart = String(totalAmount6)
@@ -192,10 +192,10 @@ class CustomeCell: UITableViewCell {
             print("Please Select And Enter Quantity Of Product")
         }*/
         else if (quantity != "" && Index_path == 6){
-            quantity7 = (quantity).Int()!
+            quantity7 = Int(quantity)!
             addQuantity7 = quantity5 + quantity4 + quantity3 + quantity2 + quantity1 + quantity6 + quantity7 + quantity8 + quantity9 + quantity10
             checklabel.text = String(addQuantity7)
-            amount7 = (categoryprice_cart).Int()! * quantity7
+            amount7 = Int(categoryprice_cart)! * quantity7
             totalAmount7 = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
             total_cart.text = String(totalAmount7)
             TPonCart = String(totalAmount7)
@@ -204,10 +204,10 @@ class CustomeCell: UITableViewCell {
             print("Please Select And Enter Quantity Of Product")
         }*/
         else if (quantity != "" && Index_path == 7){
-            quantity8 = (quantity).Int()!
+            quantity8 = Int(quantity)!
             addQuantity8 = quantity5 + quantity4 + quantity3 + quantity2 + quantity1 + quantity6 + quantity7 + quantity8 + quantity9 + quantity10
             checklabel.text = String(addQuantity8)
-            amount8 = (categoryprice_cart).Int()! * quantity8
+            amount8 = Int(categoryprice_cart)! * quantity8
             totalAmount8 = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
             total_cart.text = String(totalAmount8)
             TPonCart = String(totalAmount8)
@@ -216,10 +216,10 @@ class CustomeCell: UITableViewCell {
             print("Please Select And Enter Quantity Of Product")
         }*/
         else if (quantity != "" && Index_path == 8){
-            quantity9 = (quantity).Int()!
+            quantity9 = Int(quantity)!
             addQuantity9 = quantity5 + quantity4 + quantity3 + quantity2 + quantity1 + quantity6 + quantity7 + quantity8 + quantity9 + quantity10
             checklabel.text = String(addQuantity9)
-            amount9 = (categoryprice_cart).Int()! * quantity9
+            amount9 = Int(categoryprice_cart)! * quantity9
             totalAmount9 = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
             total_cart.text = String(totalAmount9)
             TPonCart = String(totalAmount9)
@@ -228,10 +228,10 @@ class CustomeCell: UITableViewCell {
             print("Please Select And Enter Quantity Of Product")
         }*/
     else if (quantity != "" && Index_path == 9){
-    quantity10 = (quantity).Int()!
+    quantity10 = Int(quantity)!
     addQuantity10 = quantity5 + quantity4 + quantity3 + quantity2 + quantity1 + quantity6 + quantity7 + quantity8 + quantity9 + quantity10
     checklabel.text = String(addQuantity10)
-    amount10 = (categoryprice_cart).Int()! * quantity10
+    amount10 = Int(categoryprice_cart)! * quantity10
     totalAmount10 = amount1 + amount2 + amount3 + amount4 + amount5 + amount6 + amount7 + amount8 + amount9 + amount10
     total_cart.text = String(totalAmount10)
         TPonCart = String(totalAmount10)

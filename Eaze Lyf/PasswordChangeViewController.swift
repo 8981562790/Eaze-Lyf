@@ -110,15 +110,15 @@ class PasswordChangeViewController: UIViewController {
             
             print("response data = \(responseString)")
             
-            var err : NSError?
-            var Json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error:&err) as? NSDictionary
-            if let parseJson = Json{
             
-                var st = parseJson["status"]! as Bool  // change  remove as NSString
-                var password_change_status = (st)
+            let Json:NSDictionary = try! NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as! NSDictionary
+            
+            
+                let st = Json["status"] as! Bool  // change  remove as NSString
+                let password_change_status = (st)
                 
                 if (password_change_status == false){
-                    var alertView:UIAlertView = UIAlertView()
+                    let alertView:UIAlertView = UIAlertView()
                     alertView.title = "Invalid Entry!"
                     alertView.message = "Please Check Your Mobile Number And Password"
                     alertView.delegate = self
@@ -132,7 +132,7 @@ class PasswordChangeViewController: UIViewController {
                     //NSOperationQueue.mainQueue().addOperationWithBlock {    // new line added for go to another page
                    //     self.performSegueWithIdentifier("SignUp_To_Login", sender: self)
                    // }
-                    var alertView:UIAlertView = UIAlertView()
+                    let alertView:UIAlertView = UIAlertView()
                     alertView.title = "Success!"
                     alertView.message = "Your Password Changed Successfully"
                     alertView.delegate = self
@@ -142,7 +142,7 @@ class PasswordChangeViewController: UIViewController {
                 }
                 
                 
-            }
+            
             
         }
         task.resume()

@@ -126,17 +126,13 @@ class SecondControllerLogin: UIViewController ,UITextFieldDelegate {
                 
                 print("response data = \(responseString)")
                 
-                var err : NSError?
-                var Json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error:&err) as? NSDictionary
-                
-                if let parseJson = Json{
+                let Json:NSDictionary = try! NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as! NSDictionary
                     
-                    
-                    var st = parseJson["status"]! as NSString  // change  remove as NSString
+                    let st = Json["status"] as! NSString  // change  remove as NSString
                     p = String(st)
                     
                     if (p == "failed"){
-                            var alertView:UIAlertView = UIAlertView()
+                            let alertView:UIAlertView = UIAlertView()
                             alertView.title = "Invalid Mobile Number!"
                             alertView.message = "This Mobile Number Is Not Registerd"
                             alertView.delegate = self
@@ -153,7 +149,7 @@ class SecondControllerLogin: UIViewController ,UITextFieldDelegate {
                   }
                 }
                     
-            }
+            
             }
             task.resume()
 

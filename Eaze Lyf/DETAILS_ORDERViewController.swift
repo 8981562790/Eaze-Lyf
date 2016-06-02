@@ -243,10 +243,11 @@ class DETAILS_ORDERViewController: UIViewController , UITableViewDelegate, UITab
             
             print("response data = \(responseString)")
             
-            var err : NSError?
-            var Json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error:&err) as? NSDictionary
-            if let parseJson = Json{
-                if let blogs = parseJson["success"] as? [[String: AnyObject]] {
+            let Json:NSDictionary = try! NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as! NSDictionary
+            
+            
+            
+                if let blogs = Json["success"] as? [[String: AnyObject]] {
                     for blog in blogs {
                         print(blog["orderno"])
                         print("sdagfghfhhsjfjhdgfsajhdgsjhfgshjdgfjhdsgfkjhgsdkjh")
@@ -264,12 +265,9 @@ class DETAILS_ORDERViewController: UIViewController , UITableViewDelegate, UITab
                     }
                 
                 }
-                
-            var st = parseJson["status"] as? NSString
-                
 
                 if (jjj == false){
-                    var alertView:UIAlertView = UIAlertView()
+                    let alertView:UIAlertView = UIAlertView()
                     alertView.title = "Check Mobile Number!"
                     alertView.message = "This Mobile Number Is Already registerd"
                     alertView.delegate = self
@@ -287,7 +285,7 @@ class DETAILS_ORDERViewController: UIViewController , UITableViewDelegate, UITab
                
                 
                 
-            }
+            
             
         }
     

@@ -311,13 +311,11 @@ class LocationController: UIViewController , UITextFieldDelegate {
             
             print("response data = \(responseString)")
             
-            var err : NSError?
-            var Json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error:&err) as? NSDictionary
+            let Json:NSDictionary = try! NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as! NSDictionary
             
-            if let parseJson = Json{
                 
                 //var names = [String]()
-                if let blogs = parseJson["citylist"] as? [[String: AnyObject]] {
+                if let blogs = Json["citylist"] as? [[String: AnyObject]] {
                     for blog in blogs {
                         if let cityid = blog["cityid"] as? String {
                             if blogs.count > 0 {
@@ -328,12 +326,12 @@ class LocationController: UIViewController , UITextFieldDelegate {
                                 })
                             }
                         }
-                        if let name = blog["cityname"] as? String   {
+                        if (blog["cityname"] as? String) != nil   {
                             if blogs.count > 0 {
                                 dispatch_async(dispatch_get_main_queue(), { () -> Void in
                                     //  self.cityNameLabel.text = (name as String)
                                     //println(blog["cityname"])
-                                    println(blog["arealist"])    // to print area list
+                                    print(blog["arealist"])    // to print area list
                                     
                                     
                                 })
@@ -344,7 +342,7 @@ class LocationController: UIViewController , UITextFieldDelegate {
                     
                 }
                 
-            }
+            
         }
         
         

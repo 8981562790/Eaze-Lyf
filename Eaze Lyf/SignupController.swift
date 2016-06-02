@@ -120,34 +120,25 @@ class SignupController: UIViewController,UITextFieldDelegate {
             
             print("response data = \(responseString)")
             
-            var err : NSError?
-            var Json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error:&err) as? NSDictionary
-            if let parseJson = Json{
+            
+            let Json:NSDictionary = try! NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as! NSDictionary
                 
-                
-                var st = parseJson["status"]! as Bool  // change  remove as NSString
+                let st = Json["status"] as! Bool  // change  remove as NSString
                 jjj = (st)
-                
+                    
                 if (jjj == false){
-                    var alertView:UIAlertView = UIAlertView()
+                    let alertView:UIAlertView = UIAlertView()
                     alertView.title = "Check Mobile Number!"
                     alertView.message = "This Mobile Number Is Already registerd"
                     alertView.delegate = self
                     alertView.addButtonWithTitle("OK")
                     alertView.show()
-
-                    
                 }
                 else{
-                    
                     NSOperationQueue.mainQueue().addOperationWithBlock {    // new line added for go to another page
                         self.performSegueWithIdentifier("SignUp_To_Login", sender: self)
                     }
-                   
                 }
-                
-                
-            }
             
         }
         task.resume()

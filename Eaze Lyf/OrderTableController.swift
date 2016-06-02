@@ -53,44 +53,41 @@ class OrderTableController: UIViewController, UITableViewDelegate,     UITableVi
             
             print("response data = \(responseString)")
             
-            var err : NSError?
-                //let Json = try! NSJSONSerialization.JSONObjectWithData(data!., options: .MutableContainers) as? NSDictionary
+            
+            
             let Json:NSDictionary = try! NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as! NSDictionary
             
-            if let parseJson = Json{
-                if let blogs = parseJson["Categories"] as? [[String: AnyObject]] {
-                    for blog in blogs {
+            
+            if let blogs = Json["Categories"] as? [[String: AnyObject]] {
+                for blog in blogs {
                         
-                        let category : CategoryDetails = CategoryDetails()
-                        if let cuisineid = blog["cuisineid"] as? Int {
-                            category.cuisineid = cuisineid
-                        }
-                        if let cuid = blog["categoryid"] as? Int {
-                            category.categoryid = cuid
-                        }
-                        if let img = blog["categoryimage"] as? String {
-                            category.categoryimage = img
-                            
-                        }
-                        if let categoryname1 = blog["categoryname"] as? String {
-                            category.categoryname = categoryname1
-                        }
-                        if let stk = blog["stock"] as? Int {
-                           category.stock = stk                        }
-                        if let catP = blog["categoryprice"] as? Int {
-                           category.categoryprice = catP
-                        }
-                        if let catD = blog["categorydescription"] as? String {
-                            category.categorydescription = catD
-                        }
-                        self.arrayOfCategory.append(category)
-                       
+                let category : CategoryDetails = CategoryDetails()
+                    if let cuisineid = blog["cuisineid"] as? Int {
+                        category.cuisineid = cuisineid
                     }
-                    self.tableView.reloadData()
+                    if let cuid = blog["categoryid"] as? Int {
+                        category.categoryid = cuid
+                    }
+                    if let img = blog["categoryimage"] as? String {
+                        category.categoryimage = img
+                    }
+                    if let categoryname1 = blog["categoryname"] as? String {
+                        category.categoryname = categoryname1
+                    }
+                    if let stk = blog["stock"] as? Int {
+                        category.stock = stk
+                    }
+                    if let catP = blog["categoryprice"] as? Int {
+                        category.categoryprice = catP
+                    }
+                    if let catD = blog["categorydescription"] as? String {
+                        category.categorydescription = catD
+                    }
+                    self.arrayOfCategory.append(category)
+                       
                 }
+                self.tableView.reloadData()
             }
-
-           
         }
         
         task.resume()
